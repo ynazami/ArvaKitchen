@@ -1,0 +1,222 @@
+body {
+  font-family: Montserrat;
+}
+h1 {
+  font-family: Montserrat-Black;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: 900;
+}
+h2 {
+  font-size: 3rem;
+  font-family: Montserrat-Bold;
+  font-weight: 900;
+}
+
+h4{
+  font-size: 3rem;
+  font-family: Montserrat-Bold;
+  font-weight: 400;
+  color:#fc5185;
+  text-align: center;
+  padding: 5px;
+
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.img-phone {
+  float:left;
+  padding-right: 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.5rem;
+  font-family: Montserrat-light;
+}
+
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.download {
+  margin: 5% 3% 5% 0;
+}
+
+#title {
+  background-color: #fc5185; /*#fc5185;*/
+  color:#ffffff;
+
+}
+
+.a-top {
+  color:#ffffff;
+  text-decoration: underline;
+}
+@media (max-width: 1080px){
+  .img-phone {
+    display: none;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+#testimonials {
+  background-color: #fc5185; /*#fc5185;*/
+  color:#ffffff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.top-descrip {
+  padding: 5% 0;
+  line-height: 4;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+  text-align: center;
+  color: grey;
+}
+
+#features {
+  text-align: center;
+  padding: 10% 7%;
+}
+.feature-content  {
+  padding: 15px 10px;
+}
+.feature-h3 {
+  font-size: 1.5rem;
+  font-family: Montserrat-Bold;
+  font-weight: 900;
+}
+
+.feature-icon {
+  font-size: 4em;
+  color:  #ef8172;
+}
+
+.feature-icon:hover {
+  color:  #ff4c68;
+}
+
+.feature-para {
+  color: #8f8f8f;
+  line-height: 2;
+}
+
+.icon-title{
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+}
+
+
+.pricing-header {
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.sides-menu {
+  padding: 15px;
+  margin-bottom: 150 px;
+}
+/* Menu for Order Style*/
+nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #e74c3c ;
+}
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid #e74c3c;
+    border-bottom:5px solid #e74c3c;
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #e74c3c;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+
+
+
+.menu-content {
+	padding: 5px 5px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	background-color: #fc5185;
+}
+.nav-pills .nav-link {
+    background-color: grey;
+}
+.nav-pills .nav-link:hover {
+    color: #fff;
+}
+/* Menu for Order Style*/
+#cta {
+  background-color: #ff4c68; /*#fc5185;*/
+  color:#ffffff;
+  text-align: center;
+  padding: 5% 5%;
+}
+
+.h3-cta {
+line-height: 2;
+margin: 0 30%;
+}
+
+#footer {
+  background-color: #ffffff;
+  text-align: center;
+}
